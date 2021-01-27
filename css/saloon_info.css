@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.profileImage_saloon_info{
+    height: 100px;
+    width:  100px;
+    margin-left: 30px; 
+    border-radius: 50%;
+    
+}
+.saloon_info_header{
+    
+    width: 96%;
+    box-shadow: 1px 0px 5px 2px #595959;
+    margin: 0px;
+    padding: 2%;
+    background-color: white;
+    margin-bottom: 0px;
+}
+.profileImage_saloon_info{
+    margin-bottom:0px;
+}
+.saloon_info{
+  display: inline-block;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+    
+}
+#saloon_info_title{
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+.saloon_info_header_image{
+    display: inline-block;
+   
+}
+
+#saloon_info_timing{
+    width: 90%;
+    margin: 20px auto;
+    font-size: 17px; 
+}
+#saloon_info_timing>div{
+    display: inline-block;
+    text-align: center; 
+}
+

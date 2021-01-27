@@ -1,0 +1,104 @@
+#contact-page{
+  width: 100%;
+ 
+}
+#contact-page>#frmContact{
+  position: 
+    relative;
+  width: 50%;
+  float: left;
+  
+}
+
+#frmContact>div{
+  margin-bottom: 15px;
+  width: 500px;
+  display: block;
+}
+
+#frmContact div label{
+  color:black;
+  margin-left: 10px}
+
+#content{
+ width: 80%;
+}
+
+@media (max-width:540px){
+
+#contact-page>#frmContact{
+  position: 
+    relative;
+  width: 100%;
+  float: left;
+  
+}
+  #content{
+ width: 98%;
+}
+
+}
+  #frmContact>div{
+  display:block;
+  margin-bottom: 15px;
+   width: 100%;
+ 
+
+}
+.demoInputBox{padding:10px;
+  border:#595959 0.1px solid;
+  border-radius:16px;
+  background-color:white;
+  width: 90%;
+  box-shadow: none;
+  transition: all 0.7s;
+  margin-top: 8px;
+  scale:1;
+  
+}  
+}
+.error{background-color: #FF6600;border:#AA4502 1px solid;padding: 5px 10px;color: #FFFFFF;border-radius:4px;}
+.success{background-color: #12CC1A;border:#0FA015 1px solid;padding: 5px 10px;color: #FFFFFF;border-radius:4px;}
+.contact-info{font-size:.8em;color: #FF6600;letter-spacing:2px;padding-left:5px;}
+.btnAction{
+  background: #B9DFFF;
+  height: 40px;
+  width: 100px;
+  border: 1px solid #eee;
+  
+  border-radius: 20px;
+  
+  box-shadow: 5px 5px 5px #eee;
+  
+  text-shadow:none;
+  
+}
+
+  
+.demoInputBox{padding:10px;
+  border:#595959 0.5px solid;
+  border-radius:16px;
+  background-color:white;
+  width: 250px;
+  box-shadow: none;
+  transition: all 0.7s;
+  margin-top: 2px;
+  scale:1;
+  
+}  
+.demoInputBox:hover,.demoInputBox:focus{
+  scale: 1.1;
+  box-shadow: 10px 11px 5px -5px rgba(214,214,214,1);
+}
+  
+#contact_card_address{
+  position: relative;
+  width: 330px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.15);
+  margin: 20px auto;
+  color: black;
+ 
+}

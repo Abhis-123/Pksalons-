@@ -1,0 +1,41 @@
+
+
+body{
+    width:100%;
+    margin:0;
+}
+form{
+        position: absolute;
+        width:50%;
+        top: 10%;
+        left: 15%;
+        padding-bottom: 100px;
+     padding-left: 20px;
+}
+
+.saloon_input{
+    display: block;
+    width: 80%;
+    height: 30px;
+   margin-top: 15px;
+    border: none;
+    border-bottom: 1.7px solid black;
+}
+#home_book{
+    border: 1px solid;
+}
+
+.saloon_time{
+    border: 1px solid black;
+    
+}
+label{
+    position: relative;
+    border: 1px solid;
+    
+}
+#saloon_registration{
+    
+    border: 1px solid;
+    margin-bottom:40px;
+}

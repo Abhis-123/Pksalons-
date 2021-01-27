@@ -1,0 +1,51 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#book_service{
+  width:30%;
+  margin: 150px auto;
+  background-color: beige;
+  padding: 15px;
+ 
+}
+#address_book{
+ 
+}
+.book_input{
+ padding:10px;
+  border:#F0F0F0 2px solid;
+  border-radius:16px;
+  background-color:white;
+  width: 70%;
+  box-shadow: none;
+  transition: all 0.5s;
+  margin-top: 15px;
+    
+}
+
+.book_input:hover{
+   scale: 1.05;
+  box-shadow: 10px 11px 5px -5px rgba(214,214,214,1);
+}
+@media screen and (max-width: 600px) {
+ #book_service{
+  width:100%;
+  margin: 150px auto;
+  background-color: beige;
+  padding: 15px;
+ 
+}
+  .book_input{
+ padding:10px;
+  border:#F0F0F0 2px solid;
+  border-radius:16px;
+  background-color:white;
+  width: 80%;
+  box-shadow: none;
+  transition: all 0.7s;
+  margin-top: 15px;
+    
+}
+}

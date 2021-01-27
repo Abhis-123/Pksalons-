@@ -1,0 +1,94 @@
+.search-content{
+    width: 89%;
+    margin:1% 5% 0 10%;
+}
+.saloon_card{
+    width: 360px;
+    border:1px black;
+    padding: 10px;
+   
+    border-radius: 20px;
+    box-shadow:  1px 1px 4px 2px rgba(0,0,0,0.1);
+    float: left;
+    margin: 15px;
+
+}
+.saloon_card>div>img{ 
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -100px;
+  left: 230px;
+  
+ 
+}
+.Saloon_name-search,.Saloon_owner-search ,.Saloon_mn-search{
+  position: relative;
+  width: 220px;
+  margin-top:10px;
+  top: 1px;
+ 
+}
+.Saloon_Address-search{
+  position: relative;
+  width: 100%;
+  top: -100px;
+}
+.Saloon_timing-search{
+  position: relative;
+  width: 100%;
+  top: -100px;
+  margin-bottom: -90px;
+}
+.Saloon_name-search{
+  font-size: 22px;
+  color: #0e0e0e;
+  font-weight: 600;
+  text-decoration: none;
+}
+.Saloon_owner-search ,.Saloon_mn-search,.Saloon_Address-search,.Saloon_timing-search{
+  position: relative;
+  font-size: 14px;
+  color: #0e0e0e;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 1px;
+}
+@media screen and (max-width: 600px) {
+  .search-content{
+    width: 98%;
+    margin:1% 1% 0 1%;
+}
+  #address_h,#address_h2{
+    width: 220px;
+  } 
+ 
+ .btnAction_search{
+  position: relative;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  border: none;
+}
+.saloon_card{
+    width: 340px;
+    border:1px black;
+    padding: 10px;
+   
+    border-radius: 20px;
+    box-shadow:  1px 1px 4px 2px rgba(0,0,0,0.25);
+    float: left;
+    margin: 15px;
+
+}
+}
+
+
+.btnAction_search{
+
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  border: none;
+}
