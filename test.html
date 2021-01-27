@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\registershop.css">
+</head>
+<body>
+    <!--form action="email.php">
+        <input type="text" name="name" placeholder="Please enter your name">
+        <input type="email" name="email" id="email" placeholder="enter your email" >
+     </form-->
+     <!--form action="" method="post" id="saloon_registration">
+      <div id="basic-detail">
+      <h2>Saloon Details</h2>
+      <input type="text" name="saloon-name" class="saloon_input " required  placeholder="Enter Name Of Saloon ( Star Saloon) *">
+      <input type="text" name="saloonowner"  class="saloon_input " required placeholder="Enter your name (like Rajesh sain)">    
+      <input type="email" name="saloon-email"  class="saloon_input " required placeholder="enter email for saloon notifications">
+      <input type="text" name="saloon-number"  class="saloon_input " required placeholder="enter mobile number required*">
+      <label for="saloon-address">Address Of Saloon</label>
+      <input type="text" name="saloon-address"  class="saloon_input " id="saloon-address" >
+      <label for="saloon-location">Add a google map location link Saloon</label>
+      <input type="text" name="saloon-location"  class="saloon_input " id="saloon-location">
+      </div>
+    <h2>Time schedule for saloon</h2>
+    <div class="">
+       <p>
+      <label for="opening-time">Opening Time</label>
+      <input type="time" name="opening-time" class="saloon_input saloon_time "  required>
+      <label for="closing-time">Off Time</label>
+      <input type="time" id="closing-time" class="saloon_input saloon_time" name="closing-time" 
+       required>
+      </p>
+      <label for="Off-day">Day for which saloon Is closed</label>
+      <Select name="off-day"  id="saloon_vacation">
+      <option value="monday">MONDAY</option>
+      <option value="tusday">tusday</option>
+      <option value="wednesday">wednesday</option>
+      <option value="thursday">thursday</option>
+      <option value="friday">friday</option>
+      <option value="saturday">saturday</option>
+      <option value="sunday">sunday</option>
+      </Select>
+   </div>
+      
+     <h2>Home Avilability</h2>
+      <label for="select">Will you Take Home Booking</label>
+      <select name="home_book" id="home_book"   placeholder="select your option">
+      <option value="none">Select Your Choice</option>
+      <option value="yes">YES</option>
+      <option value="no">NO</option>
+      </select>
+      <div  id="home_timing">
+         <h2>Timing for home booking</h2>
+      <label for="start-time">start Time</label>
+      <input type="time" name="start-time" class="saloon_input " required>
+      <label for="off-time">off Time</label>
+      <input type="time" id="off-time" name="off-time" class="saloon_input " required>
+      </div>
+      
+      <button type="submit"  value="submit" name="submit">Register</button>
+  </form>
+</body>
+</html>
+<!---div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div>
+ <div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div>
+ <div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div>
+ <div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div>
+ <div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div>
+ <div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div>
+ <div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div>
+ <div class="saloon_card">
+    <div> 
+       <p class="Saloon_name-search">Saloon Name</p>
+       <p class="Saloon_owner-search">Master: Saloon Owner</p>
+       <p class="Saloon_owner-search">Mobile:123343356</p>
+       <img src="images/3.jpg" alt="No image Uploaded" class="Saloon-image">  
+    </div>
+       <p class="Saloon_Address-search">Address</p>
+       <p Class="Saloon_timing-search">Avilability:For home booking </p>
+       <button type="submit" class="btnAction-search"><a href="#"> Book</a></button>
+ </div--> 
+ <div id="test">
+   dsfghjkl;kjhgfh
+   
+   </div>
+ <script>
+
+
+ </script> 
+
+<h3 id="account_pictures" onclick="" class="account_data" >pictures</h3>
+        <h3 id="account_booking"  class="account_data">Bookings</h3>
+        <h3 id="account_messages"  class="account_data">Messages</h3></div>
+    <!--div class="phtos_container">
+      <div class="phot_card">
+      <img src="images/1.jpg" alt="there is a image">
+      </div>
+      
+      
+  
+  </div-->
+
+
+
+
+y=2*atan((((L3**2 - L2**2 - L1**2 + L4**2 - L1**2*tan(p/2)**2 - L2**2*tan(p/2)**2 + L3**2*tan(p/2)**2 + L4**2*tan(p/2)**2 + 2*L1*L2 + 2*L3*L4 - 2*L1*L2*tan(p/2)**2 + 2*L3*L4*tan(p/2)**2)*(L1**2 + L2**2 - L3**2 - L4**2 + L1**2*tan(p/2)**2 + L2**2*tan(p/2)**2 - L3**2*tan(p/2)**2 - L4**2*tan(p/2)**2 - 2*L1*L2 + 2*L3*L4 + 2*L1*L2*tan(p/2)**2 + 2*L3*L4*tan(p/2)**2))**(1/2) - 4*L2*L4*tan(p/2))/(L1**2 + L2**2 - L3**2 + L4**2 + L1**2*tan(p/2)**2 + L2**2*tan(p/2)**2 - L3**2*tan(p/2)**2 + L4**2*tan(p/2)**2 - 2*L1*L2 - 2*L1*L4 + 2*L2*L4 + 2*L1*L2*tan(p/2)**2 - 2*L1*L4*tan(p/2)**2 - 2*L2*L4*tan(p/2)**2))
+-2*atan((((L3**2 - L2**2 - L1**2 + L4**2 - L1**2*tan(p/2)**2 - L2**2*tan(p/2)**2 + L3**2*tan(p/2)**2 + L4**2*tan(p/2)**2 + 2*L1*L2 + 2*L3*L4 - 2*L1*L2*tan(p/2)**2 + 2*L3*L4*tan(p/2)**2)*(L1**2 + L2**2 - L3**2 - L4**2 + L1**2*tan(p/2)**2 + L2**2*tan(p/2)**2 - L3**2*tan(p/2)**2 - L4**2*tan(p/2)**2 - 2*L1*L2 + 2*L3*L4 + 2*L1*L2*tan(p/2)**2 + 2*L3*L4*tan(p/2)**2))**(1/2) + 4*L2*L4*tan(p/2))/(L1**2 + L2**2 - L3**2 + L4**2 + L1**2*tan(p/2)**2 + L2**2*tan(p/2)**2 - L3**2*tan(p/2)**2 + L4**2*tan(p/2)**2 - 2*L1*L2 - 2*L1*L4 + 2*L2*L4 + 2*L1*L2*tan(p/2)**2 - 2*L1*L4*tan(p/2)**2 - 2*L2*L4*tan(p/2)**2))
+ 
+
+x= 2*atan((((L3^2 - L2^2 - L1^2 + L4^2 - L1^2*tan(p/2)^2 - L2^2*tan(p/2)^2 + L3^2*tan(p/2)^2 + L4^2*tan(p/2)^2 + 2*L1*L2 + 2*L3*L4 - 2*L1*L2*tan(p/2)^2 + 2*L3*L4*tan(p/2)^2)*(L1^2 + L2^2 - L3^2 - L4^2 + L1^2*tan(p/2)^2 + L2^2*tan(p/2)^2 - L3^2*tan(p/2)^2 - L4^2*tan(p/2)^2 - 2*L1*L2 + 2*L3*L4 + 2*L1*L2*tan(p/2)^2 + 2*L3*L4*tan(p/2)^2))^(1/2) - 4*L2*L4*tan(p/2))/(L1^2 + L2^2 + L3^2 - L4^2 + L1^2*tan(p/2)^2 + L2^2*tan(p/2)^2 + L3^2*tan(p/2)^2 - L4^2*tan(p/2)^2 - 2*L1*L2 + 2*L1*L3 - 2*L2*L3 + 2*L1*L2*tan(p/2)^2 + 2*L1*L3*tan(p/2)^2 + 2*L2*L3*tan(p/2)^2) - (4*(L2*L3*tan(p/2) - L2*L4*tan(p/2)))/(L1^2 + L2^2 + L3^2 - L4^2 + L1^2*tan(p/2)^2 + L2^2*tan(p/2)^2 + L3^2*tan(p/2)^2 - L4^2*tan(p/2)^2 - 2*L1*L2 + 2*L1*L3 - 2*L2*L3 + 2*L1*L2*tan(p/2)^2 + 2*L1*L3*tan(p/2)^2 + 2*L2*L3*tan(p/2)^2))
+-2*atan((((L3^2 - L2^2 - L1^2 + L4^2 - L1^2*tan(p/2)^2 - L2^2*tan(p/2)^2 + L3^2*tan(p/2)^2 + L4^2*tan(p/2)^2 + 2*L1*L2 + 2*L3*L4 - 2*L1*L2*tan(p/2)^2 + 2*L3*L4*tan(p/2)^2)*(L1^2 + L2^2 - L3^2 - L4^2 + L1^2*tan(p/2)^2 + L2^2*tan(p/2)^2 - L3^2*tan(p/2)^2 - L4^2*tan(p/2)^2 - 2*L1*L2 + 2*L3*L4 + 2*L1*L2*tan(p/2)^2 + 2*L3*L4*tan(p/2)^2))^(1/2) + 4*L2*L4*tan(p/2))/(L1^2 + L2^2 + L3^2 - L4^2 + L1^2*tan(p/2)^2 + L2^2*tan(p/2)^2 + L3^2*tan(p/2)^2 - L4^2*tan(p/2)^2 - 2*L1*L2 + 2*L1*L3 - 2*L2*L3 + 2*L1*L2*tan(p/2)^2 + 2*L1*L3*tan(p/2)^2 + 2*L2*L3*tan(p/2)^2) + (4*(L2*L3*tan(p/2) - L2*L4*tan(p/2)))/(L1^2 + L2^2 + L3^2 - L4^2 + L1^2*tan(p/2)^2 + L2^2*tan(p/2)^2 + L3^2*tan(p/2)^2 - L4^2*tan(p/2)^2 - 2*L1*L2 + 2*L1*L3 - 2*L2*L3 + 2*L1*L2*tan(p/2)^2 + 2*L1*L3*tan(p/2)^2 + 2*L2*L3*tan(p/2)^2))
+ 
